@@ -5,5 +5,5 @@ yum downgrade -y liblsapi liblsapi-devel ea-apache24*
 echo "Installing versionlock..."
 dnf install -y python3-dnf-plugin-versionlock
 echo "Version locking affected packages..."
-yum versionlock -y liblsapi liblsapi-devel ea-apache24*
+yum versionlock liblsapi liblsapi-devel ea-apache24*
 echo "Completed"
